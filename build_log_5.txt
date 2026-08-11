@@ -1,0 +1,105 @@
+Running Gradle task 'assembleRelease'...                        
+lib/expense_calculator/screens/expense_dashboard_screen.dart:464:17: Error: Can't find ']' to match '['.
+      children: [
+                ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:483:12: Error: Expected ';' after this.
+          )),
+           ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:483:13: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+          )),
+            ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:483:13: Error: Unexpected token ';'.
+          )),
+            ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:484:9: Error: Expected an identifier, but got ')'.
+Try inserting an identifier before ')'.
+        ),
+        ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:483:13: Error: Expected ';' after this.
+          )),
+            ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:484:9: Error: Unexpected token ';'.
+        ),
+        ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:484:10: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        ),
+         ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:484:9: Error: Expected ';' after this.
+        ),
+        ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:484:10: Error: Unexpected token ';'.
+        ),
+         ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:485:34: Error: Expected ';' after this.
+        const SizedBox(height: 12),
+                                 ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:485:35: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        const SizedBox(height: 12),
+                                  ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:485:35: Error: Unexpected token ';'.
+        const SizedBox(height: 12),
+                                  ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:500:9: Error: Expected ';' after this.
+        ),
+        ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:500:10: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        ),
+         ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:500:10: Error: Unexpected token ';'.
+        ),
+         ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:501:7: Error: Expected an identifier, but got ']'.
+Try inserting an identifier before ']'.
+      ],
+      ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:500:10: Error: Expected ';' after this.
+        ),
+         ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:501:7: Error: Unexpected token ';'.
+      ],
+      ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:501:8: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+      ],
+       ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:501:7: Error: Expected ';' after this.
+      ],
+      ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:501:8: Error: Unexpected token ';'.
+      ],
+       ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:502:5: Error: Expected an identifier, but got ')'.
+Try inserting an identifier before ')'.
+    );
+    ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:501:8: Error: Expected ';' after this.
+      ],
+       ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:502:5: Error: Unexpected token ';'.
+    );
+    ^
+lib/expense_calculator/screens/expense_dashboard_screen.dart:474:23: Error: Too few positional arguments: 8 required, 7 given.
+        _buildMenuTile(
+                      ^
+Target kernel_snapshot_program failed: Exception
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildRelease'.
+> Process 'command '/home/prathap/flutter/bin/flutter'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 11s
+Running Gradle task 'assembleRelease'...                           12.0s
+Gradle task assembleRelease failed with exit code 1
